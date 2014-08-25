@@ -1,7 +1,7 @@
 {
   "name": "logger-bugsnag",
   "author": "Alan Plum",
-  "version": "0.1",
+  "version": "1.0.0",
   "description": "Logger job type for Foxx using BugSnag.",
 
   "exports": {

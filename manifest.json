@@ -1,0 +1,46 @@
+{
+  "name": "logger-bugsnag",
+  "author": "Alan Plum",
+  "version": "0.1",
+  "description": "Logger job type for Foxx using BugSnag.",
+
+  "exports": {
+    "logger": "logger.js"
+  },
+
+  "defaultDocument": "",
+
+  "lib": ".",
+
+  "configuration": {
+    "apiKey": {
+      "description": "Your BugSnag API key.",
+      "type": "string"
+    },
+    "appVersion": {
+      "description": "The version number of your BugSnag app.",
+      "type": "string",
+      "default": "production"
+    },
+    "releaseStage": {
+      "description": "The release stage of your BugSnag app (i.e. development or production).",
+      "type": "string",
+      "default": "production"
+    },
+    "hostname": {
+      "description": "The hostname of your BugSnag app.",
+      "type": "string",
+      "default": "localhost"
+    },
+    "jobType": {
+      "description": "Name of the job type to register.",
+      "type": "string",
+      "default": "logger.bugsnag"
+    },
+    "maxFailures": {
+      "description": "Maximum number of times to retry a job if it fails.",
+      "type": "integer",
+      "default": 0
+    }
+  }
+}

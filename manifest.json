@@ -19,8 +19,7 @@
     },
     "appVersion": {
       "description": "The version number of your BugSnag app.",
-      "type": "string",
-      "default": "production"
+      "type": "string"
     },
     "releaseStage": {
       "description": "The release stage of your BugSnag app (i.e. development or production).",

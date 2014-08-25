@@ -34,7 +34,7 @@ This app has the following configuration options:
 The BugSnag logger job expects an array of objects with the following properties:
 
 * *exceptions*: an array of exceptions. See below.
-* *context* (optional): an arbitrary object.
+* *context* (optional): an arbitrary string.
 * *groupingHash* (optional): an arbitrary string.
 * *severity* (optional): any of *"error"*, *"warning"*, or *"info"*. Default: *"error"*.
 * *user* (optional): an arbitrary object.

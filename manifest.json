@@ -1,8 +1,21 @@
 {
   "name": "logger-bugsnag",
-  "author": "Alan Plum",
-  "version": "1.0.0",
   "description": "Logger job type for Foxx using BugSnag.",
+  "author": "ArangoDB GmbH",
+  "version": "1.0.0",
+  "license": "Apache License, Version 2.0",
+
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/arangodb/foxx-logger-bugsnag.git"
+  },
+
+  "contributors": [
+    {
+      "name": "Alan Plum",
+      "email": "me@pluma.io"
+    }
+  ],
 
   "exports": {
     "logger": "logger.js"

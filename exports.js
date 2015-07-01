@@ -5,7 +5,7 @@ var extend = require('underscore').extend;
 
 module.exports = {
   mount: applicationContext.mount,
-  name: 'mailer',
+  name: 'logger',
   schema: joi.array().includes({
     exceptions: joi.array().required(),
     context: joi.string().optional(),

@@ -2,29 +2,23 @@
   "name": "logger-bugsnag",
   "description": "Logger job type for Foxx using BugSnag.",
   "author": "ArangoDB GmbH",
-  "version": "1.0.0",
+  "version": "2.0.0-dev",
   "license": "Apache License, Version 2.0",
-
   "repository": {
     "type": "git",
     "url": "https://github.com/arangodb/foxx-logger-bugsnag.git"
   },
-
   "contributors": [
     {
       "name": "Alan Plum",
       "email": "me@pluma.io"
     }
   ],
-
-  "exports": {
+  "exports": "exports.js",
+  "scripts": {
     "logger": "logger.js"
   },
-
-  "defaultDocument": "",
-
-  "lib": ".",
-
+  "tests": "test/**",
   "configuration": {
     "apiKey": {
       "description": "Your BugSnag API key.",
@@ -43,11 +37,6 @@
       "description": "The hostname of your BugSnag app.",
       "type": "string",
       "default": "localhost"
-    },
-    "jobType": {
-      "description": "Name of the job type to register.",
-      "type": "string",
-      "default": "logger.bugsnag"
     },
     "maxFailures": {
       "description": "Maximum number of times to retry a job if it fails.",

@@ -2,7 +2,7 @@
   "name": "logger-bugsnag",
   "description": "Logger job type for Foxx using BugSnag.",
   "author": "ArangoDB GmbH",
-  "version": "2.0.0-dev",
+  "version": "2.0.0",
   "license": "Apache License, Version 2.0",
   "repository": {
     "type": "git",
